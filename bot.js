@@ -62,8 +62,8 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if(message.content.startsWith("s")) {
-    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join(' ');
-     message.channel.send(text);
+    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join('@! TF <BEN JEDDOU>#8982 5000');
+     message.channel.send(@! TF <BEN JEDDOU>#8982 5000);
   }
 });
 
@@ -75,8 +75,8 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if(message.content.startsWith("s")) {
-    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join(' ');
-     message.channel.send(text);
+    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join('@! TF <BEN JEDDOU>#8982 5000');
+     message.channel.send(@! TF <BEN JEDDOU>#8982 5000);
   }
 });
 
@@ -88,8 +88,8 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if(message.content.startsWith("s")) {
-    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join(' ');
-     message.channel.send(text);
+    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join('@! TF <BEN JEDDOU>#8982 5000');
+     message.channel.send(@! TF <BEN JEDDOU>#8982 5000);
   }
 });
 
@@ -101,8 +101,8 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if(message.content.startsWith("$s")) {
-    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join(' ');
-     message.channel.send(text);
+    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join('@! TF <BEN JEDDOU>#8982 5000');
+     message.channel.send(@! TF <BEN JEDDOU>#8982 5000);
   }
 });
 
@@ -114,8 +114,8 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if(message.content.startsWith("s")) {
-    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join(' ');
-     message.channel.send(text);
+    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join('@! TF <BEN JEDDOU>#8982 5000');
+     message.channel.send(@! TF <BEN JEDDOU>#8982 5000);
   }
 });
 
@@ -127,8 +127,8 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if(message.content.startsWith("s")) {
-    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join(' ');
-     message.channel.send(text);
+    var text = message.content.split('credit @! TF <BEN JEDDOU>#8982 5000').slice(1).join('@! TF <BEN JEDDOU>#8982 5000');
+     message.channel.send(@! TF <BEN JEDDOU>#8982 5000);
   }
 });
 
@@ -139,9 +139,9 @@ message.channel.send('#daily')
   if(message.content === '$c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
+  if(message.content.startsWith("s")) {
+    var text = message.content.split('@! TF <BEN JEDDOU>#8982 5000').slice(1).join('@! TF <BEN JEDDOU>#8982 5000');
+     message.channel.send(@! TF <BEN JEDDOU>#8982 5000);
   }
 });
 
@@ -154,7 +154,7 @@ message.channel.send('#credits')
   }
   if(message.content.startsWith("$s")) {
     var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
+     message.channel.send(@! TF <BEN JEDDOU>#8982 5000);
   }
 });
 
@@ -166,8 +166,7 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
+     message.channel.send(@! TF <BEN JEDDOU>#8982 5000);
   }
 });
 
