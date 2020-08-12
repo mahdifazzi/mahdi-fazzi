@@ -59,7 +59,7 @@ client.on('message', message => {
 message.channel.send('#daily')
   }
   if(message.content === 'c'){
-message.channel.send('#credits')
+message.channel.send('#credit')
   }
   if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
@@ -72,7 +72,7 @@ client2.on('message', message => {
 message.channel.send('#daily')
   }
   if(message.content === 'c'){
-message.channel.send('#credits')
+message.channel.send('#credit')
   }
   if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
@@ -85,7 +85,7 @@ client3.on('message', message => {
 message.channel.send('#daily')
   }
   if(message.content === 'c'){
-message.channel.send('#credits')
+message.channel.send('#credit')
   }
   if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
@@ -98,7 +98,7 @@ client4.on('message', message => {
 message.channel.send('#daily')
   }
   if(message.content === 'c'){
-message.channel.send('#credits')
+message.channel.send('#credit')
   }
   if(message.content.startsWith("$s")) {
     var text = message.content.split(' ').slice(1).join(' ');
@@ -111,7 +111,7 @@ client5.on('message', message => {
 message.channel.send('#daily')
   }
   if(message.content === '$c'){
-message.channel.send('#credits')
+message.channel.send('#credit')
   }
   if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
@@ -137,7 +137,7 @@ client7.on('message', message => {
 message.channel.send('#daily')
   }
   if(message.content === 'c'){
-message.channel.send('#credits')
+message.channel.send('#credit')
   }
   if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
@@ -150,7 +150,7 @@ client8.on('message', message => {
 message.channel.send('#daily')
   }
   if(message.content === 'c'){
-message.channel.send('#credits')
+message.channel.send('#credit')
   }
   if(message.content.startsWith("$s")) {
     var text = message.content.split(' ').slice(1).join(' ');
@@ -163,7 +163,7 @@ client9.on('message', message => {
 message.channel.send('#daily')
   }
   if(message.content === 'c'){
-message.channel.send('#credits')
+message.channel.send('#credit')
   }
   if(message.content.startsWith("$s")) {
      message.channel.send(text);
@@ -175,7 +175,7 @@ client10.on('message', message => {
 message.channel.send('#daily')
   }
   if(message.content === 'c'){
-message.channel.send('#credits')
+message.channel.send('#credit')
   }
   if(message.content.startsWith("$s")) {
     var text = message.content.split(' ').slice(1).join(' ');
