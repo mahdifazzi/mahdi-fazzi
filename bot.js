@@ -368,7 +368,7 @@ message.channel.send('#credits')
 
 
 client.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 's') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 20000; x++) {
@@ -382,10 +382,10 @@ if (message.content === '$spam') {
 });
 
 client2.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 's') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 9000; x++) {
+      for(let x = 0; x < 10000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -396,10 +396,10 @@ if (message.content === '$spam') {
 });
 
 client3.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 's') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 9000; x++) {
+      for(let x = 0; x < 10000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -413,7 +413,7 @@ client4.on('message', message => {
 if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 9000; x++) {
+      for(let x = 0; x < 10000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -424,10 +424,10 @@ if (message.content === '$spam') {
 });
 
 client5.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 'sp') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 9000; x++) {
+      for(let x = 0; x < 10000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -441,7 +441,7 @@ client6.on('message', message => {
 if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 9000; x++) {
+      for(let x = 0; x < 0000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -469,7 +469,7 @@ client8.on('message', message => {
 if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 9000; x++) {
+      for(let x = 0; x < 10000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -483,7 +483,7 @@ client9.on('message', message => {
 if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 9000; x++) {
+      for(let x = 0; x < 10000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
