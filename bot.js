@@ -55,78 +55,78 @@ client24.login(process.env.TOKEN24);
 
 
 client.on('message', message => {
-  if (message.content === '$d') {
+  if (message.content === 'd') {
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client2.on('message', message => {
-  if(message.content === '$d'){
+  if(message.content === 'd'){
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client3.on('message', message => {
-  if(message.content === '$d'){
+  if(message.content === 'd'){
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("vs")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client4.on('message', message => {
-  if (message.content === '$d') {
+  if (message.content === 'd') {
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client5.on('message', message => {
-  if(message.content === '$d'){
+  if(message.content === 'd'){
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client6.on('message', message => {
-  if(message.content === '$d'){
+  if(message.content === 'd'){
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
