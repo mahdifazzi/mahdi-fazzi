@@ -110,7 +110,7 @@ client5.on('message', message => {
   if(message.content === 'd'){
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
   if(message.content.startsWith("s")) {
@@ -152,7 +152,7 @@ message.channel.send('#daily')
   if(message.content === 'c'){
 message.channel.send('#credit')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
@@ -165,7 +165,7 @@ message.channel.send('#daily')
   if(message.content === 'c'){
 message.channel.send('#credit')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
      message.channel.send(text);
   }
 });
@@ -177,85 +177,85 @@ message.channel.send('#daily')
   if(message.content === 'c'){
 message.channel.send('#credit')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client11.on('message', message => {
-  if (message.content === '$d') {
+  if (message.content === 'd') {
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client12.on('message', message => {
-  if(message.content === '$d'){
+  if(message.content === 'd'){
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client13.on('message', message => {
-  if(message.content === '$d'){
+  if(message.content === 'd'){
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client14.on('message', message => {
-  if (message.content === '$d') {
+  if (message.content === 'd') {
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client15.on('message', message => {
-  if(message.content === '$d'){
+  if(message.content === 'd'){
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client16.on('message', message => {
-  if(message.content === '$d'){
+  if(message.content === 'd'){
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === 'c'){
 message.channel.send('#credits')
   }
-  if(message.content.startsWith("$s")) {
+  if(message.content.startsWith("s")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
@@ -508,7 +508,7 @@ if (message.content === 'go') {
 });
 
 client11.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 'go') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -522,7 +522,7 @@ if (message.content === '$spam') {
 });
 
 client12.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 'go') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -536,7 +536,7 @@ if (message.content === '$spam') {
 });
 
 client13.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 'go') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -550,7 +550,7 @@ if (message.content === '$spam') {
 });
 
 client14.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 'go') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -564,7 +564,7 @@ if (message.content === '$spam') {
 });
 
 client15.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 'go') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -578,7 +578,7 @@ if (message.content === '$spam') {
 });
 
 client16.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 'go') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -592,7 +592,7 @@ if (message.content === '$spam') {
 });
 
 client17.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 'go') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
