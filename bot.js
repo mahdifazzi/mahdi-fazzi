@@ -385,7 +385,7 @@ client2.on('message', message => {
 if (message.content === 's') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 10000; x++) {
+      for(let x = 0; x < 20000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -399,7 +399,7 @@ client3.on('message', message => {
 if (message.content === 's') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 10000; x++) {
+      for(let x = 0; x < 20000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -410,10 +410,10 @@ if (message.content === 's') {
 });
 
 client4.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 's') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 10000; x++) {
+      for(let x = 0; x < 20000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -424,10 +424,10 @@ if (message.content === '$spam') {
 });
 
 client5.on('message', message => {
-if (message.content === 'sp') {
+if (message.content === 's') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 10000; x++) {
+      for(let x = 0; x < 20000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -438,10 +438,10 @@ if (message.content === 'sp') {
 });
 
 client6.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 's') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 0000; x++) {
+      for(let x = 0; x < 20000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -452,10 +452,10 @@ if (message.content === '$spam') {
 });
 
 client7.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === 's') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 9000; x++) {
+      for(let x = 0; x < 2000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
